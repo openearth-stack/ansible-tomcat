@@ -14,3 +14,4 @@ script:
   - ansible --version
   - ansible-playbook --inventory-file tests/hosts --syntax-check tests/playbook.yml
   - ansible-playbook --inventory-file tests/hosts --connection=local -vvvv tests/playbook.yml
+
